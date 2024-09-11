@@ -21,7 +21,7 @@ public class VerifyingSuccessfulLoginPage {
 
 		//STEP1: SEARCH THE GIVEN URL AND CONFIRM THAT THE CORRECT URL IS OPENED
 		driver.get("https://app.germanyiscalling.com/common/login/");
-		Assert.assertEquals(driver.getTitle(), "Login | Germany Is Calling");
+		Assert.assertEquals(driver.getTitle(), "Login | Germany is Calling");
 
 		//STEP2: ENTER THE INCORRECT USERNAME AND PASSWORD
 		driver.findElement(By.id("username")).sendKeys("yashnandhyala@gmail.com");
