@@ -1,5 +1,5 @@
 # Assignment
-Automation Test suite Assignment for Germany is calling 
+Automation Test suite Assignment for 'Germany is calling'. 
 Before running the Selenium tests, ensure your system has the following installed:
 Prerequisites
 -------------
